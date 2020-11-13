@@ -10,7 +10,7 @@ package com.example.structural.decorator;
  */
 public abstract class DecoratorShape implements Shape {
 
-    private Shape decoratedShape;
+    protected Shape decoratedShape;
 
     public DecoratorShape(Shape decoratedShape) {
 
