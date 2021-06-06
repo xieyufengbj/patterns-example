@@ -10,7 +10,7 @@ package com.example.constructional.singleton;
  */
 public class DoubleCheckSingleton {
 
-    private static DoubleCheckSingleton doubleCheckSingleton;
+    private static volatile DoubleCheckSingleton doubleCheckSingleton;
 
     private DoubleCheckSingleton() {
         System.out.println("DoubleCheckSingleton:DoubleCheckSingleton构建器初始化完成");
